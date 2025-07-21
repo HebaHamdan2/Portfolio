@@ -1,0 +1,28 @@
+.about .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 46px;
+    margin-bottom: 46px;
+}
+.info ,.poster{
+    width: 40%;
+}
+.info img{
+    width: 100%;
+    margin-bottom: 24px;
+}
+.info a{
+    background-color: #131212;
+    color: #FFFF;
+    border-radius: 40px;
+    padding: 24px 48px;
+    margin-bottom: 24px;
+
+}
+.poster img{
+    width: 100%;
+    border:1px solid #686665;
+    border-radius: 50%;
+    margin-bottom: 24px;
+}
