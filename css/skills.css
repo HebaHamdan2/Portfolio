@@ -1,4 +1,5 @@
-.skills{
+.skills {
+     width: 100%;
   padding: 3.5rem 1.5rem;
   border-left: 1px solid #d9d9d9;
   border-right: 1px solid #d9d9d9;
@@ -11,4 +12,19 @@
     font-family: "Playfair Display", serif;
     margin-bottom: 2.5rem;
     width: 40%;
+}
+.skills-list{
+    list-style: none;
+    display: flex;
+    gap: 6rem;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: start;
+}
+.skills-list img {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.skills-list img:hover {
+  transform: scale(1.1);
 }
