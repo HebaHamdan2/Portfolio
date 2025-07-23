@@ -1,69 +1,64 @@
 .hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 3rem;
-    padding-top: 2.875rem;
-    padding-bottom: 2.875rem;
-    flex-wrap: wrap;
-     padding-left: 24px;
-  border-left:1px solid #D9D9D9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  padding-top: 2.875rem;
+  padding-bottom: 2.875rem;
+  flex-wrap: wrap;
+  padding-left: 24px;
+  border-left: 1px solid #d9d9d9;
   padding-right: 24px;
-  border-right:1px solid #D9D9D9;
-
+  border-right: 1px solid #d9d9d9;
 }
-.hero-content{
+.hero-content {
   flex: 1;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
   max-width: 500px;
   width: 40%;
- 
 }
 
-.title{
-   display: flex;
-   align-items: center;
-   gap: 1rem; 
+.title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.title .line {
+  width: 32px;
+  height: 2px;
+  background-color: #333333;
+}
+.title h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
 
+.hero-content h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 4.5rem;
 }
-.title .line{
-    width: 32px;
-    height: 2px;
-    background-color: #333333;
+.hero p {
+  font-family: "Lato", sans-serif;
+  color: #686665;
+  font-size: 1.5rem;
 }
-.title h2{
-    font-family: "Playfair Display", serif;
-    font-weight: bold;
-    font-size: 1.5rem;
-
+.hero-content a {
+  background-color: #131212;
+  color: #ffff;
+  border-radius: 40px;
+  padding: 1rem 2rem;
+  width: fit-content;
 }
-
-.hero-content h3{
-    font-family: "Playfair Display", serif;
-    font-weight: bold;
-    font-size: 4.5rem;
-   
-
+.hero-content img {
+  width: 100%;
+  max-width: 350px;
 }
-.hero p{
-    font-family: "Lato", sans-serif;
-    color: #686665;
-    font-size: 1.5rem;
-}
-.hero-content a{
-    background-color: #131212;
-    color: #FFFF;
-    border-radius: 40px;
-    padding: 1rem 2rem;
-    width: fit-content;
-}
-.hero-content img{
-    width: 100%;
-    max-width: 350px;
-}
-.hero-image{
+.hero-image {
   width: 36%;
   max-width: 500px;
 }
@@ -98,5 +93,4 @@
     width: 100%;
     max-width: 250px;
   }
-
 }
