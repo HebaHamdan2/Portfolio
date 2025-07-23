@@ -3,12 +3,9 @@
   align-items: center;
   justify-content: space-between;
   gap: 3rem;
-  padding-top: 2.875rem;
-  padding-bottom: 2.875rem;
+  padding: 3.5rem 1.5rem;
   flex-wrap: wrap;
-  padding-left: 24px;
   border-left: 1px solid #d9d9d9;
-  padding-right: 24px;
   border-right: 1px solid #d9d9d9;
 }
 .hero-content {
