@@ -1,0 +1,97 @@
+.contact {
+  padding:6rem 1.5rem ;
+  border-left: 1px solid #d9d9d9;
+  border-right: 1px solid #d9d9d9;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 11%;
+  flex-wrap: wrap;
+
+}
+.contact .title{
+    margin-bottom: 0.75rem;
+}
+.contact h3{
+    font-size: 3.5rem;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 2.5rem;
+    max-width: 500px;
+}
+.contact p{
+font-size: 1.5rem;
+color: rgba(0, 0, 0, 0.5);
+font-family: "Playfair Display", serif;
+max-width: 500px;
+
+}
+.contact-form {
+  flex: 1;
+  max-width: 600px;
+  width: 100%;
+}
+.contact-form form{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 24px;
+    border: 1px solid rgba(51, 51, 51, 0.1);
+    gap: 2.5rem;
+}
+.contact-form input,textarea{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border: none;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.1);
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #333;
+}
+
+.contact-form input::placeholder, textarea::placeholder{
+    font-family: "Playfair Display", serif;
+    font-size: 0.875rem;
+    font-weight: 600;
+
+ }
+ .contact-form button{
+    font-family: "Playfair Display", serif;
+    padding:  1.5rem 3rem;
+    border-radius: 40px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #131212;
+    width: fit-content;
+    transition: background-color 0.3s, transform 0.3s;
+    border: none;
+    cursor: pointer;
+ }
+ .contact-form button:hover{
+      background-color: #333;
+      transform: translateY(-2px);
+
+ }
+ @media (max-width:1000px) {
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items:stretch;
+}
+.contact h3,
+  .contact p {
+    width: 100%;
+  }
+
+  .contact-form {
+    max-width: 100%;
+  }
+
+ }
