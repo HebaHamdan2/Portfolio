@@ -22,7 +22,7 @@
     justify-content: start;
 }
 .skills-list img {
-  transition: transform 0.3s ease, filter 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .skills-list img:hover {
