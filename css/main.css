@@ -3,6 +3,7 @@
 @import url('./edu.css');
 @import url('projects.css');
 @import url('./skills.css');
+@import url('contact.css');
 * {
   margin: 0;
   padding: 0;

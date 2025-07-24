@@ -33,10 +33,11 @@ nav li a{
     padding: 8px 16px;
     color:#FFFF;
     border-radius: 35px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.3s;
 }
 .connect-btn:hover {
   background-color: #333;
+  transform: translateY(-4px);
 }
 @media (max-width: 768px) {
   nav .container {
