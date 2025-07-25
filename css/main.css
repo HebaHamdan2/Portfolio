@@ -9,7 +9,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: #836a80e3 #f2f0f9;
 }
+
 .container{
     width:88.8%;
     margin: auto;
